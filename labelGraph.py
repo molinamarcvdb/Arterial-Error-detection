@@ -3,9 +3,10 @@ import networkx as nx
 
 import matplotlib.pyplot as plt
 
+caseId = "12363619"
+caseDir = "/Users/projectephantom/Desktop/base_de_dades_marc/dataset102_713/processed/12363619"
 
-caseDir = '/Users/projectephantom/Desktop/base_de_dades_marc/dataset102_713/unprocessed/19963073'
-
+1
 graph_path = os.path.join(caseDir, "graph.pickle")
 
 G = nx.readwrite.gpickle.read_gpickle(graph_path)
